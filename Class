@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+using namespace std;
+class test1 {
+	public:
+    	string infomain1;
+    	string info1;
+};
+
+class test2 {
+	public:
+    	string infomain2;
+    	string info2;
+};
+
+int main(){
+	test1 myObj1;
+    myObj1.infomain1="Имя, Фамилия, Возраст, Рост:";
+    myObj1.info1="Вася, Кейпопий, 21, 170.";
+    
+    test2 myObj2;
+    myObj2.infomain2="Имя, Фамилия, Возраст, Рост:";
+    myObj2.info2="Ника, Конева, 30, 190.";
+    
+    cout<<myObj1.infomain1<<myObj1.info1<<endl;
+    cout<<myObj2.infomain2<<myObj2.info2<<endl;
+}
